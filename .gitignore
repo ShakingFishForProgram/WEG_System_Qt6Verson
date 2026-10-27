@@ -1,0 +1,49 @@
+# Build output
+build/
+build-*/
+debug/
+release/
+
+# Qt Creator user settings
+.qtcreator/
+*.pro.user
+*.pro.user.*
+*.autosave
+CMakeLists.txt.user*
+
+# Compiled binaries and objects
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.pdb
+*.ilk
+
+# Qt generated files
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.moc
+
+# Makefile / CMake generated
+Makefile
+Makefile.*
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
